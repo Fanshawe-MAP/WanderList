@@ -6,12 +6,13 @@
 ## Group B
 
 - Pritesh Tupe
+- Muhammad Mohsin Khan
 
 ## App Concept
 
 <u>What is WanderList though?</u>
 
-Wander List is an app to manage the bucket list of places that one wishes to visit or has already visited.
+WanderList is an app to manage the bucket list of places that one wishes to visit or has already visited.
 
 <u>I see, and why does something like this exist?</u>
 
@@ -28,19 +29,19 @@ TODO
 ## Features
 
 1. Bucket List
-1. World Map
-1. Bucket List places to visit on map
-1. Bucket List places already visited on map
-1. Multiple visits to same places
-1. Automatic tracking of location
-1. Experience/rating of visiting the place
-1. Priority of items in list
-1. Gamification - Add milestones and achievements
-1. Statistics - Total distance traveled etc
-1. Favorite places to visit
-1. Place photos on the map (feature or just design?)
-1. Gamification 2 - Add counters (like x more places to visit before getting badge y)
-1. Color scheme (dark mode?)
+2. World Map
+3. Bucket List places to visit on map
+4. Bucket List places already visited on map
+5. Multiple visits to same places
+6. Automatic tracking of location
+7. Experience/rating of visiting the place
+8. Priority of items in list
+9. Gamification - Add milestones and achievements
+10. Statistics - Total distance traveled etc
+11. Favorite places to visit
+12. Place photos on the map (feature or just design?)
+13. Gamification 2 - Add counters (like x more places to visit before getting badge y)
+14. Color scheme (dark mode?)
 
 ## Setup
 
