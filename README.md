@@ -2,8 +2,6 @@
 <h1 align="center">WanderList</h1>
 <p align="center">Visualize your bucket list of dream destinations</p>
 <br />
-<hr />
-<br />
 
 ## Group B
 
@@ -43,3 +41,15 @@ TODO
 1. Place photos on the map (feature or just design?)
 1. Gamification 2 - Add counters (like x more places to visit before getting badge y)
 1. Color scheme (dark mode?)
+
+## Setup
+
+```bash
+
+git clone git@github.com:Fanshawe-MAP/WanderList.git
+
+npm install # ensure dev dependencies are installed
+
+npm start # can run on android/ios/web
+
+```
