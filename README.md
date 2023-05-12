@@ -6,6 +6,7 @@
 ## Group B
 
 - Pritesh Tupe
+- Alla Verkhohliadova
 
 ## App Concept
 
