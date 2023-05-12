@@ -43,6 +43,8 @@ TODO
 1. Place photos on the map (feature or just design?)
 1. Gamification 2 - Add counters (like x more places to visit before getting badge y)
 1. Color scheme (dark mode?)
+1. Can share travel itinerary with friends or family ?( can redirect to any social media platform)
+1. Categories and Tags: Allow users to categorize their bucket list and visited places by tags.
 
 ## Setup
 
