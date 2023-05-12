@@ -7,6 +7,7 @@
 
 - Pritesh Tupe
 - Alla Verkhohliadova
+- Ankita Panjwani
 
 ## App Concept
 
