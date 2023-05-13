@@ -8,6 +8,7 @@
 - Pritesh Tupe
 - Alla Verkhohliadova
 - Ankita Panjwani
+- Muhammad Mohsin Khan
 
 ## App Concept
 
