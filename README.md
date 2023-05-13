@@ -12,11 +12,11 @@
 
 ## App Concept
 
-<u>What is WanderList though?</u>
+**So, what is WanderList?**
 
 Wander List is an app to manage the bucket list of places that one wishes to visit or has already visited.
 
-<u>I see, and why does something like this exist?</u>
+**I see, and why does something like this exist?**
 
 We all have a “wish-list”. Most of it in the form of a vague dream that pours forth during spare downtime. Imagine scrolling on Instagram, seeing a photo of a sunset across the ocean, and thinking: “Man, it would be nice to visit the beaches of Miami!”, just to be forgotten the next moment distracted by the antics of a cute cat.
 
@@ -24,28 +24,28 @@ The hustle bustle of day-to-day life verily rolls over such moments; we tend to 
 
 Well - no more. Because WanderList brings those snatches of half-forgotten wishes back to the fore.
 
-<u>Okay, so how does it work then?</u>
+**Okay, and how does it work?**
 
-TODO
+// TODO
 
 ## Features
 
-1. Bucket List
-1. World Map
-1. Bucket List places to visit on map
-1. Bucket List places already visited on map
-1. Multiple visits to same places
-1. Automatic tracking of location
-1. Experience/rating of visiting the place
-1. Priority of items in list
-1. Gamification - Add milestones and achievements
-1. Statistics - Total distance traveled etc
-1. Favorite places to visit
-1. Place photos on the map (feature or just design?)
-1. Gamification 2 - Add counters (like x more places to visit before getting badge y)
-1. Color scheme (dark mode?)
-1. Can share travel itinerary with friends or family ?( can redirect to any social media platform)
-1. Categories and Tags: Allow users to categorize their bucket list and visited places by tags.
+1. Bucket List: A feature that allows users to create a list of places they want to visit.
+1. World Map: A map that displays the locations of the places on the user's bucket list and the places they have already visited.
+1. Bucket List Places on Map: The ability to view the user's bucket list places on the world map.
+1. Visited Places on Map: The ability to view the places the user has already visited on the world map.
+1. Multiple Visits to Same Places: The ability to add the same place to the bucket list or visited places multiple times.
+1. Automatic Tracking of Location: The user's location is automatically tracked when they visit a new place and added to their visited places.
+1. Experience/Rating of Visiting Place: The user can rate their experience of visiting a place.
+1. Priority of Items in List: The user can prioritize the places on their bucket list.
+1. Gamification - Add Milestones and Achievements: The ability to set milestones and achievements for the user to reach as they visit more places.
+1. Statistics - Total Distance Traveled, etc.: The ability to view statistics such as the total distance traveled or the number of places visited.
+1. Favorite Places to Visit: The user can mark places as favorites.
+1. Place Photos on the Map: The ability to add photos of the places on the map.
+1. Gamification 2 - Add Counters: The ability to add counters, such as the number of places the user needs to visit before receiving a badge.
+1. Color Scheme (Dark Mode?): The ability to choose a color scheme or a dark mode option.
+1. Share Travel Itinerary with Friends or Family: The ability to share the user's travel itinerary with friends or family via social media platforms.
+1. Categories and Tags: The ability to categorize the user's bucket list and visited places by tags.
 
 ## Setup
 
