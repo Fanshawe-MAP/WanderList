@@ -6,9 +6,9 @@
 ## Group B
 
 - Pritesh Tupe
-- Alla Verkhohliadova
 - Ankita Panjwani
 - Muhammad Mohsin Khan
+- Alla Verkhohliadova
 
 ## App Concept
 
