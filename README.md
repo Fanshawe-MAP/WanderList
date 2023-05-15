@@ -7,8 +7,9 @@
 
 - Pritesh Tupe
 - Alla Verkhohliadova
-- Ankita Panjwani
 - Muhammad Mohsin Khan
+- Ankita Panjwani
+
 
 ## App Concept
 
@@ -34,9 +35,9 @@ TODO
 1. World Map
 1. Bucket List places to visit on map
 1. Bucket List places already visited on map
+1. Experience/rating of visiting the place
 1. Multiple visits to same places
 1. Automatic tracking of location
-1. Experience/rating of visiting the place
 1. Priority of items in list
 1. Gamification - Add milestones and achievements
 1. Statistics - Total distance traveled etc
