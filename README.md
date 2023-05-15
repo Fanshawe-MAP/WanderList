@@ -42,6 +42,7 @@ TODO
 1. Gamification - Add milestones and achievements
 1. Statistics - Total distance traveled etc
 1. Favorite places to visit
+1. Gamification 2 - Add counters (like x more places to visit before getting badge y)
 1. Place photos on the map (feature or just design?)
 1. Gamification 2 - Add counters (like x more places to visit before getting badge y)
 1. Color scheme (dark mode?)
