@@ -1,35 +1,50 @@
-import { StyleSheet } from "react-native";
-
-import EditScreenInfo from "../../components/EditScreenInfo";
-import { Text, View } from "../../components/Themed";
+import React, { useState, useEffect } from "react";
+import { View, StyleSheet } from "react-native";
+import { useRoute } from "@react-navigation/native";
+import BucketListItem from "../../components/BucketListItem";
 
 export default function TabTwoScreen() {
+  const [bucketItems, setBucketItems] = useState([]);
+
+  const route = useRoute();
+  const newItem = route.params?.newItem;
+
+  useEffect(() => {
+    if (newItem) {
+      setBucketItems((prevItems) => [...prevItems, newItem]);
+    }
+  }, [newItem]);
+
+  const updateItem = (updatedItem) => {
+    setBucketItems((prevItems) =>
+      prevItems.map((item) => (item.id === updatedItem.id ? updatedItem : item))
+    );
+  };
+
+  const handleDeleteItem = (itemToDelete) => {
+    setBucketItems((prevItems) =>
+      prevItems.filter((item) => item.id !== itemToDelete.id)
+    );
+  };
+
+  const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      justifyContent: "flex-start",
+      padding: 16,
+    },
+  });
+
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tab Two</Text>
-      <View
-        style={styles.separator}
-        lightColor="#eee"
-        darkColor="rgba(255,255,255,0.1)"
-      />
-      <EditScreenInfo path="app/(tabs)/two.tsx" />
+      {bucketItems.map((item) => (
+        <BucketListItem
+          key={item.id}
+          item={item}
+          onUpdate={updateItem}
+          onDelete={handleDeleteItem}
+        />
+      ))}
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: "bold",
-  },
-  separator: {
-    marginVertical: 30,
-    height: 1,
-    width: "80%",
-  },
-});
